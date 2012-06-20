@@ -1,0 +1,86 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=6640, tid=5828
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b147
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.0-b17 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000204c800):  JavaThread "Unknown thread" [_thread_in_vm, id=5828, stack(0x0000000002170000,0x0000000002270000)]
+
+Stack: [0x0000000002170000,0x0000000002270000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000204c800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5828, stack(0x0000000002170000,0x0000000002270000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000000013f660000 - 0x000000013f693000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00000000772c0000 - 0x000000007746c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076f90000 - 0x00000000770af000 	C:\Windows\system32\kernel32.dll
+0x000007fefda90000 - 0x000007fefdafc000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff1b0000 - 0x000007feff28b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff310000 - 0x000007feff3af000 	C:\Windows\system32\msvcrt.dll
+0x000007feff4d0000 - 0x000007feff4ef000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe8b0000 - 0x000007fefe9de000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076be0000 - 0x0000000076cda000 	C:\Windows\system32\USER32.dll
+0x000007fefea60000 - 0x000007fefeac7000 	C:\Windows\system32\GDI32.dll
+0x000007fefdb00000 - 0x000007fefdb0e000 	C:\Windows\system32\LPK.dll
+0x000007feff0e0000 - 0x000007feff1aa000 	C:\Windows\system32\USP10.dll
+0x000007fefc360000 - 0x000007fefc554000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll
+0x000007fefe9e0000 - 0x000007fefea51000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feff4a0000 - 0x000007feff4ce000 	C:\Windows\system32\IMM32.DLL
+0x000007fefead0000 - 0x000007fefebd9000 	C:\Windows\system32\MSCTF.dll
+0x000000006b4c0000 - 0x000000006b591000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000065960000 - 0x000000006602e000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fefac00000 - 0x000007fefac09000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff450000 - 0x000007feff49d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe8a0000 - 0x000007fefe8a8000 	C:\Windows\system32\NSI.dll
+0x000007fefba90000 - 0x000007fefbacb000 	C:\Windows\system32\WINMM.dll
+0x0000000077480000 - 0x0000000077487000 	C:\Windows\system32\PSAPI.DLL
+0x0000000073440000 - 0x000000007344f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000073410000 - 0x0000000073438000 	C:\Program Files\Java\jre7\bin\java.dll
+0x00000000733f0000 - 0x0000000073405000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\Android\android-sdk\platforms\android-8\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 23467 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames dojo.game.tictacdroid.tests.GameTests
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\SenchaSDKTools-2.0.0-beta3;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\PC Connectivity Solution\;C:\oracle\product\11.1.0\client_1\bin;C:\Program Files (x86)\SemanticDesigns\DMS\Executables;C:\oracle\product\10.2.0\client_1\bin;C:\Program Files (x86)\MiKTeX 2.8\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\DW WLAN Card\Driver;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\SlikSvn\bin\;C:\MongoDB\bin;C:\Program Files\SlikSvn\bin;C:\Windows\system32\gs\gs7.05\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\ArcGIS\ArcSDE\ora10gexe\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\VDownloader;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\platforms;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\SemanticDesigns\DMS\Executables;C:\Program Files (x86)\SemanticDesigns\DMS\Domains\PARLANSE\Tools\RuntimeSystem;C:\Program Files (x86)\OpenVPNTech\bin;C:\Program Files (x86)\TextPad 4
+USERNAME=gmoreira
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 8247916k(4628472k free), swap 16493928k(12462684k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.0-b17) for windows-amd64 JRE (1.7.0-b147), built on Jun 27 2011 02:19:45 by "java_re" with unknown MS VC++:1600
+
+time: Tue Jun 19 19:40:48 2012
+elapsed time: 0 seconds
+
