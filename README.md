@@ -1,4 +1,8 @@
-tictacdroid
+TicTacDroid
 ===========
 
-Android game developed in Imagem Open Space, on 19/06/2012
+Android game developed in the Imagem Dojo Night (06/19/2012), in São José dos Campos, SP.
+
+Screenshot
+
+![Some Image](resources/screenshot.png)
